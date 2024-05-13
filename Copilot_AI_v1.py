@@ -1,7 +1,7 @@
 from funcoes_carplay import *
 import google.generativeai as genai
 
-GOOGLE_API_KEY = "AIzaSyCLqNIR7dvRSBjXP3o80SCgUqqeETRA6nc"
+GOOGLE_API_KEY = "Coloque sua chave API do Gemini aqui"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Set up the model
