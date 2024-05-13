@@ -28,8 +28,8 @@ def musica(nome: str, banda: str = '') -> str:
     musica = f"{nome}, {banda} "
 
     # ----- Variáveis -----
-    clientID = "b5edc0ab8b714e5384a2267b23c12bbb"
-    clientSecret = "400f2e751da64aa88e01121dbc3191da"
+    clientID = "Coloque seu Client ID do Spotify aqui"
+    clientSecret = "Coloque seu Cliente Secret do Spotify aqui"
     redirect_uri = 'http://google.com/callback/'
 
     # Acessa a Api do spotfy e cria um objeto chamado spotfy autenticado para fazer solicitações à API em nome do utilizador.
