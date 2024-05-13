@@ -1,6 +1,6 @@
 # ----- Importações -----
 from tkinter import *
-from Copilot import enviar_mensagem
+from Copilot_AI_v1 import enviar_mensagem
 from PIL import Image, ImageTk
 import speech_recognition as sr
 import pyttsx3
